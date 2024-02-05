@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import sisgnup from "../assets/signup.jpg";
 import { Link } from "react-router-dom";
-const signup = () => {
+const Signup = () => {
   return (
     <div>
       <div className="container login-container">
@@ -74,4 +74,4 @@ const signup = () => {
   );
 };
 
-export default signup;
+export default Signup;
